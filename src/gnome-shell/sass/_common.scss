@@ -1054,14 +1054,14 @@ $mdbt_radius: 100px;
 /* TOP BAR */
 
 #panel {
-  background-color: $panel_bg_color;
+  // background-color: $panel_bg_color;
   /* transition from solid to transparent */
   transition-duration: 250ms;
   font-weight: bold;
   height: $medium_size + 2px;
   box-shadow: $shadow_6;
-  border-radius: $circular_radius;
-  margin: $container_padding/2;
+  // border-radius: $circular_radius;
+  // margin: $container_padding/2;
 
   &:overview,
   &.unlock-screen,
